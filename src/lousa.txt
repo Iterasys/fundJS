@@ -1,0 +1,36 @@
+Exercício da Contagem Progressiva
+
+Problema:
+- ao exibir uma sequencia de numeros, se o aumento não for de
+  um em um (index++), se corre um grande risco de mostrar uma
+  virgula no final
+
+Soluções Possiveis:
+1 - descobrir qual será o último número da lista e não colocar
+    virgula nele
+2 - na variavel resultado, remover a última virgula
+
+Escolha dos Alunos:
+- Opção 2
+
+O que faremos (algoritmo):
+ok - vamos descobrir o tamanho do texto na variavel resultado
+  Exemplo: 60
+- vamos ler o último caracter do texto
+  Exemplos: ...,50,<espaço> ou ...,50
+- Se último caracter for o <espaço>:
+  - remove a virgula e exibe como está
+- Senão
+  - exibe como está (já está sem a virgula)
+
+
+     5    11
+José Antonio Fernandes Correia
+    ^
+0---|
+onde está o espaço? posição 4
+mostre o texto até a posição 4 - 1 = pegar até a posição 3
+
+Bom dia José!
+
+
